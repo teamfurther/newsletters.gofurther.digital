@@ -2,6 +2,7 @@
    ========================================================================== */
 
 $color-black: #000021 !default;
+$color-blue: #352f7f !default;
 $color-cobalt: #3b3081 !default;
 $color-raspberry: #f7086e !default;
 $color-gray: #fafafc !default;
@@ -10,6 +11,7 @@ $color-white: #ffffff !default;
 
 $colors: (
 	'black': $color-black,
+	'blue': $color-blue,
 	'cobalt': $color-cobalt,
 	'gray': $color-gray,
 	'gray-dark': $color-gray-dark,

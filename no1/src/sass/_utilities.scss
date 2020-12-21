@@ -11,6 +11,19 @@
 	}
 }
 
+/* Colors
+   ========================================================================== */
+
+/**
+ * Utilities for controlling an element's text color.
+ */
+
+@each $color-key, $color-value in $colors {
+	.has-text-#{$color-key} {
+		color: $color-value !important;
+	}
+}
+
 
 
 /* Display
