@@ -1,0 +1,123 @@
+/* Colors
+   ========================================================================== */
+
+$color-black: #000021 !default;
+$color-cobalt: #3b3081 !default;
+$color-raspberry: #f7086e !default;
+$color-gray: #fafafc !default;
+$color-gray-dark: #6b6b70 !default;
+$color-white: #ffffff !default;
+
+$colors: (
+	'black': $color-black,
+	'cobalt': $color-cobalt,
+	'gray': $color-gray,
+	'gray-dark': $color-gray-dark,
+	'raspberry': $color-raspberry,
+	'white': $color-white,
+) !default;
+
+
+
+/* Page
+   ========================================================================== */
+
+$page-background-color: $color-gray !default;
+$page-horizontal-spacing-mobile: 0 !default;
+$page-vertical-spacing: 40px !default;
+$page-vertical-spacing-mobile: 20px !default;
+
+
+
+/* Typography
+   ========================================================================== */
+
+/**
+ * Base
+ */
+
+$font-family-base: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif !default;
+$line-height-base: 23px !default;
+$font-size-base: 16px !default;
+
+/**
+ * Headings
+ */
+
+// Font sizes
+$font-size-h1: 50px !default;
+$font-size-h2: 38px !default;
+$font-size-h3: 28px !default;
+$font-size-h4: 21px !default;
+$font-size-h5: 16px !default;
+$font-size-h6: 12px !default;
+
+// Line heights
+$line-height-h1: 58px !default;
+$line-height-h2: 46px !default;
+$line-height-h3: 36px !default;
+$line-height-h4: 29px !default;
+$line-height-h5: 23px !default;
+$line-height-h6: 20px !default;
+
+/**
+ * Links
+ */
+
+$link-color: $color-cobalt !default;
+
+
+
+/* Spacing
+   ========================================================================== */
+
+/**
+ * Control the default spacing of most elements by modifying these variables.
+ * You can add more entries to the `$spacers` map, should you need more
+ * variation.
+ */
+
+$spacers: (
+	'auto': auto,
+	'0': 0,
+	'1': 10px,
+) !default;
+
+$spacing-sides: (
+	'bottom': b,
+	'horizontal': x,
+	'left': l,
+	'right': r,
+	'top': t,
+	'vertical': y,
+) !default;
+
+
+
+/* Grid
+   ========================================================================== */
+
+$grid-container-width: 600px !default;
+$grid-columns: 12 !default;
+$grid-column-width: $grid-container-width / $grid-columns !default;
+$grid-gutter: 20px !default;
+
+
+
+/* Breakpoints
+   ========================================================================== */
+
+/**
+ * Define the minimum dimension at which your layout will change, adapting to
+ * different screen sizes, for use in media queries.
+ */
+
+$breakpoint-mobile: $grid-container-width + ($grid-gutter * 2) !default;
+
+
+
+/* Buttons
+   ========================================================================== */
+
+$button-default-background-color: $color-cobalt !default;
+$button-default-text-color: $color-white !default;
